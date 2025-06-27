@@ -27,21 +27,22 @@
   - `sqft_living15`, `sqft_lot15`: diện tích trung bình của 15 ngôi nhà xung quanh
 
 ## 4. Công cụ và công nghệ áp dụng  
-- **Ngôn ngữ**: Python (Jupyter Notebook)  
+- **Ngôn ngữ**: Python  
 - **Xử lý & phân tích**: `pandas`, `numpy`  
 - **Trực quan hóa**: `matplotlib`, `seaborn`  
 - **Mô hình hóa**: `statsmodels`, `scikit-learn`  
-- **Môi trường**: Google Colab
+- **Môi trường**: `Google Colab/Jupyter Notebook`
+- **Công cụ hỗ trợ**: `Excel`
 
 ## 5. Các insight chính  
 1. **Diện tích sử dụng** (`sqft_living`) và **grade** có tương quan mạnh nhất với giá bán.  
-2. Bất động sản có `waterfront = 1` thường có giá cao hơn trung bình khoảng 20–30%.  
+2. Giá nhà và số lượng nhà phân bố theo khu vực ven biển là rất lớn.
 3. Tỷ lệ diện tích trên phòng ngủ (sqft_living/bedroom) phản ánh tối ưu không gian, giúp mô hình ổn định và giảm hệ số âm bất hợp lý.
 
 ## 6. Giả thuyết dựa trên các insight  
 - **Tăng 1 điểm grade** kỳ vọng kéo giá bán tăng X% khi giữ nguyên các yếu tố khác.  
-- **Waterfront premium**: Nhà gần mặt nước luôn bán với giá cao hơn do tính khan hiếm và view.  
-- **Cải tạo gần đây** (yr_renovated) làm tăng giá bán so với nhà chưa cải tạo.  
+- **Waterfront**: Nhà gần mặt nước luôn bán với giá cao hơn do tính khan hiếm và view.  
+- **Cải tạo** (yr_renovated) làm tăng giá bán so với nhà chưa cải tạo.  
 - **Tỷ lệ diện tích/phòng ngủ cao** đem lại giá trị gia tăng vì không gian sống thoải mái hơn.
 
 ## 7. Khuyến nghị dựa trên kết quả phân tích  
