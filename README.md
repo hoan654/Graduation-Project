@@ -22,7 +22,8 @@
   - `view`, `condition`, `grade`: đánh giá góc nhìn, tình trạng, chất lượng xây dựng  
   - `sqft_above`, `sqft_basement`: diện tích trên mặt đất và diện tích tầng hầm  
   - `yr_built`, `yr_renovated`: năm xây, năm cải tạo  
-  - `lat`, `long`: toạ độ kinh độ và vĩ độ  
+  - `lat`, `long`: toạ độ kinh độ và vĩ độ
+  - `zipcode`: mã vùng
   - `sqft_living15`, `sqft_lot15`: diện tích trung bình của 15 ngôi nhà xung quanh
 
 ## 4. Công cụ và công nghệ áp dụng  
