@@ -31,7 +31,7 @@
 - **Xử lý & phân tích**: `pandas`, `numpy`  
 - **Trực quan hóa**: `matplotlib`, `seaborn`  
 - **Mô hình hóa**: `statsmodels`, `scikit-learn`  
-- **Môi trường**: Google Colab / Jupyter Notebook
+- **Môi trường**: Google Colab
 
 ## 5. Các insight chính  
 1. **Diện tích sử dụng** (`sqft_living`) và **grade** có tương quan mạnh nhất với giá bán.  
