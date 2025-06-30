@@ -1,7 +1,7 @@
 # Phân tích yếu tố tác động đến giá nhà tại Mỹ và dự báo giá nhà
 
 ## 1. Mục tiêu dự án  
-- Xác định những yếu tố ảnh hưởng mạnh nhất đến giá bán nhà (số phòng ngủ, diện tích, grade, view, vị trí, v.v.).  
+- Phân tích từng yếu tố và xác định những yếu tố ảnh hưởng mạnh đến giá bán nhà (số phòng ngủ, diện tích, grade, view, vị trí, v.v.).  
 - Xây dựng mô hình hồi quy tuyến tính đa biến để dự báo giá nhà với độ chính xác cao (R², RMSE).  
 - Đề xuất chiến lược định giá và cải tạo bất động sản cho nhà đầu tư, người mua và người bán.
 
