@@ -40,7 +40,7 @@
 3. Tỷ lệ diện tích trên phòng ngủ (sqft_living/bedroom) phản ánh tối ưu không gian, giúp mô hình ổn định và giảm hệ số âm bất hợp lý.
 
 ## 6. Giả thuyết dựa trên các insight  
-- **Tăng 1 điểm grade** kỳ vọng kéo giá bán tăng X% khi giữ nguyên các yếu tố khác.  
+- **Tăng điểm view và grade** kỳ vọng kéo giá bán tăng X% khi giữ nguyên các yếu tố khác.  
 - **Waterfront**: Nhà gần mặt nước luôn bán với giá cao hơn do tính khan hiếm và view.  
 - **Cải tạo** (yr_renovated) làm tăng giá bán so với nhà chưa cải tạo.  
 - **Tỷ lệ diện tích/phòng ngủ cao** đem lại giá trị gia tăng vì không gian sống thoải mái hơn.
