@@ -1,9 +1,11 @@
 # Phân tích yếu tố tác động đến giá nhà tại Mỹ và dự báo giá nhà
 
 ## 1. Mục tiêu dự án  
-- Phân tích từng yếu tố và xác định những yếu tố ảnh hưởng mạnh đến giá bán nhà (số phòng ngủ, diện tích, grade, view, vị trí, v.v.).  
-- Xây dựng mô hình hồi quy tuyến tính đa biến, Xgboost,... để dự báo giá nhà với độ chính xác cao (R², RMSE).  
-- Đề xuất chiến lược định giá và cải tạo bất động sản cho nhà đầu tư, người mua và người bán.
+- Phân tích từng yếu tố và xác định những yếu tố ảnh hưởng mạnh đến giá bán nhà (số phòng ngủ, diện tích, grade, view, vị trí, v.v.).
+- Cung cấp insights về mối quan hệ giữa biến với giá trong quá trình EDA và Mô hình.
+- Đưa ra các đề xuất, khuyến nghị cho người mua, người bán, nhà đầu tư.
+- Xây dựng mô hình hồi quy tuyến tính đa biến, Xgboost,... để dự báo giá nhà  (R², RMSE).  
+
 
 ## 2. Nguồn dữ liệu sử dụng  
 - **House Sales in King County, USA** (21.613 dòng, 21 cột) từ Kaggle.  
