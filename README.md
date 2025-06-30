@@ -36,17 +36,16 @@
 - **Môi trường**: `Google Colab/Jupyter Notebook`
 - **Công cụ hỗ trợ**: `Excel`
 
-## 5. Các insight chính  
+## 5. Các insight chính  và giả thuyết được đưa ra
 1. **Diện tích sử dụng** (`sqft_living`) và **grade** có tương quan mạnh nhất với giá bán.  
-2. Giá nhà và số lượng nhà phân bố theo khu vực ven biển là rất lớn.
-3. Tỷ lệ diện tích trên phòng ngủ (sqft_living/bedroom) phản ánh tối ưu không gian, giúp mô hình ổn định và giảm hệ số âm bất hợp lý.
+2. - **Tỷ lệ diện tích/phòng ngủ cao** đem lại giá trị gia tăng vì không gian sống thoải mái hơn.
+3. **Tăng điểm view và grade** kỳ vọng kéo giá bán tăng X% khi giữ nguyên các yếu tố khác.  
+4. **Waterfront**: Nhà gần mặt nước luôn bán với giá cao hơn do đặc tính địa lý và nhu cầu thị trường.  
+5. **Cải tạo** (yr_renovated) làm tăng giá bán so với nhà chưa cải tạo.  
 
-## 6. Giả thuyết dựa trên các insight  
-- **Tăng điểm view và grade** kỳ vọng kéo giá bán tăng X% khi giữ nguyên các yếu tố khác.  
-- **Waterfront**: Nhà gần mặt nước luôn bán với giá cao hơn do tính khan hiếm và view.  
-- **Cải tạo** (yr_renovated) làm tăng giá bán so với nhà chưa cải tạo.  
-- **Tỷ lệ diện tích/phòng ngủ cao** đem lại giá trị gia tăng vì không gian sống thoải mái hơn.
-
+## 6. Mô hình
+- Lựa chọn Mô hình Xgboost vì có R-squared và RMSE tối ưu nhất.
+  
 ## 7. Khuyến nghị dựa trên kết quả phân tích  
 - **Nhà đầu tư**: Ưu tiên mua/sửa chữa tại khu vực waterfront và nâng cấp grade để tối đa hóa lợi nhuận.  
 - **Người bán**: Đầu tư cải tạo, sơn sửa, nâng cấp grade và khai thác tính view để tăng curb appeal.  
