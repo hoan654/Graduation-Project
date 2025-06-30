@@ -8,8 +8,9 @@
 
 
 ## 2. Nguồn dữ liệu sử dụng  
-- **House Sales in King County, USA** (21.613 dòng, 21 cột) từ Kaggle.  
-- Tài liệu đề xuất dự án và brief tốt nghiệp: `Proposal_KhaiHoan.docx`, `Graduation Project Brief.docx`.
+- Nguồn: Kaggle (House Sales in King County, USA)
+- Link: https://www.kaggle.com/datasets/harlfoxem/housesalesprediction
+
 
 ## 3. Tổng quan dữ liệu  
 - **Mô tả chung**: Dữ liệu giao dịch bán nhà tại King County (Washington State), bao gồm thông tin kỹ thuật và vị trí.  
