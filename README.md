@@ -1,7 +1,7 @@
 # Phân tích yếu tố tác động đến giá nhà tại Mỹ và dự báo giá nhà
 
 ## 1. Mục tiêu dự án  
-- Phân tích từng yếu tố và xác định những yếu tố ảnh hưởng mạnh đến giá bán nhà (số phòng ngủ, diện tích, grade, view, vị trí, v.v.).
+- Phân tích từng yếu tố và xác định những yếu tố ảnh hưởng mạnh đến giá bán nhà.
 - Cung cấp insights về mối quan hệ giữa biến với giá trong quá trình EDA và Mô hình.
 - Đưa ra các đề xuất, khuyến nghị cho người mua, người bán, nhà đầu tư.
 - Xây dựng mô hình hồi quy tuyến tính đa biến, Xgboost,... để dự báo giá nhà  (R², RMSE).  
@@ -38,12 +38,13 @@
 
 ## 5. Các insight chính  và giả thuyết được đưa ra
 1. **Diện tích sử dụng** (`sqft_living`) và **grade** có tương quan mạnh nhất với giá bán.  
-2. - **Tỷ lệ diện tích/phòng ngủ cao** đem lại giá trị gia tăng vì không gian sống thoải mái hơn.
+2. **Tỷ lệ diện tích/phòng ngủ cao** đem lại giá trị gia tăng vì không gian sống thoải mái hơn.
 3. **Tăng điểm view và grade** kỳ vọng kéo giá bán tăng X% khi giữ nguyên các yếu tố khác.  
 4. **Waterfront**: Nhà gần mặt nước luôn bán với giá cao hơn do đặc tính địa lý và nhu cầu thị trường.  
 5. **Cải tạo** (yr_renovated) làm tăng giá bán so với nhà chưa cải tạo.  
 
 ## 6. Mô hình
+- Xây dựng và so sánh các mô hình với nhau.
 - Lựa chọn Mô hình Xgboost vì có R-squared và RMSE tối ưu nhất.
   
 ## 7. Khuyến nghị dựa trên kết quả phân tích  
