@@ -48,10 +48,10 @@
 - Xây dựng và so sánh các mô hình với nhau.
 - Lựa chọn Mô hình Xgboost vì có R-squared và RMSE tối ưu nhất.
 
-##7. Insights
+## 7. Insights
 - Diện tích sử dụng, vị trí địa lý và chất lượng căn nhà là những yếu tố ảnh hưởng lớn nhất đến giá nhà. Ngoài ra các biến này cũng có tương quan lớn với nhau, ví dụ diện tích, phòng ngủ, số lầu có mối quan hệ chặt chẽ - có thể làm tăng giảm giá phụ vào vào bố cục và thiết kế căn nhà. Người mua/bán, nhà đầu tư cần phân tích kỹ các yếu tố trong mối quan hệ tổng để đưa ra quyết định chính xác và tối ưu nhất.
   
-## 7. Khuyến nghị dựa trên kết quả phân tích  
+## 8. Khuyến nghị dựa trên kết quả phân tích  
 - **Nhà đầu tư**: Ưu tiên mua/sửa chữa tại khu vực waterfront và nâng cấp grade để tối đa hóa lợi nhuận.  
 - **Người bán**: Đầu tư cải tạo, sơn sửa, nâng cấp grade và khai thác tính view để tăng curb appeal.  
 - **Người mua**: Lưu ý cân bằng giữa số phòng ngủ và diện tích mỗi phòng, ưu tiên nhà có waterfront nếu ngân sách cho phép.
